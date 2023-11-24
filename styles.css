@@ -241,6 +241,13 @@ footer a:hover {
     gap: 15px;
 }
 
+h4 {
+    color: var(--vermelho);
+    font-weight: 700;
+    font-size: 1.5em;
+    user-select: none;
+}
+
 .container__membros__items img {
     width: 50%;
     border-radius: 30px 5px;
