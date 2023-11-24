@@ -231,6 +231,11 @@ footer a:hover {
     width: 50%;
 }
 
+.tequilala_logo {
+    width: 25vw;
+    margin-bottom: 10px;
+}
+
 .container__tequilala {
     display: flex;
     flex-direction: column;
@@ -290,6 +295,11 @@ footer a:hover {
 
 .swiper__paragrafo {
     color: rgba(255, 255, 255, 0.11);
+}
+
+.menu_tequilala {
+    width: 70vw;
+    margin-top: 50px;
 }
 
 
