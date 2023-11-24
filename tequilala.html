@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filhos da névoa</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <img src="./assets/valknut.png" alt="valknut" draggable="false">
+        <nav>
+            <a href="lore.html" class="nav_link">Lore</a>
+            <a href="membros.html" class="nav_link">Membros</a>
+            <a href="tequilala.html" class="nav_link">Tequila la</a>
+            <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        </nav>
+
+        <h1><span class="span-a">Filhos</span> <span class="span-b">da</span> <span class="span-a">névoa</span></h1>
+    </header>
+
+        <main class="container__tequilala">
+
+            <section class="container__tequilala__lore">
+                <h2>Tequila la</h2>
+                <p>Há muitos anos, em uma parte esquecida de Ethergate Valley, Morgan Parriott, o visionário líder dos Filhos da névoa, deparou-se com um estabelecimento decadente conhecido como Tequila la. O local, apesar de seu estado precário, capturou a imaginação de Morgan, que viu além das rachaduras nas paredes e do mobiliário desgastado.</p>
+                <p>Com um olhar afiado para oportunidades, Morgan adquiriu o Tequila la e empreendeu uma ambiciosa jornada de revitalização. O local, outrora caindo aos pedaços, foi transformado por suas mãos habilidosas e pela visão de um líder. As rachaduras deram lugar a uma atmosfera acolhedora, o mobiliário desgastado foi substituído por peças cuidadosamente escolhidas, e o lugar renasceu como um refúgio noturno elegante e discreto.</p>
+                <p>Antes de adormecer, Morgan Parriot deu a seu filho, Ronnie, um presente especial: o Tequila la. O bar, outrora negligenciado, foi renovado por Morgan, tornando-se mais do que um local noturno; agora, era um legado familiar. Ronnie, ao assumir o controle, viu nas paredes revitalizadas do Tequila la um testemunho tangível do compromisso de sua família com o passado, o presente e o futuro.</p>
+            </section>
+
+            <section class="carrosel">
+                <div class="swiper">
+                    <div class="swiper-pagination"></div>
+                        <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="assets/tequilala/frente.png" alt="Tequilala" class=""></div>
+                        <div class="swiper-slide"><img src="assets/tequilala/bar.png" alt="Tequilala" class=""></div>
+                        <div class="swiper-slide"><img src="assets/tequilala/interior.png" alt="Tequilala" class=""></div>
+                        <div class="swiper-slide"><img src="assets/tequilala/interior2.png" alt="Tequilala" class=""></div>
+                </div>
+            </section>
+            <p class="swiper__paragrafo">Arraste para o lado</p>
+        </main>
+
+    <footer>
+        <p>Desenvolvido por <a href="https://linktr.ee/ailluminathi" target="_blank">ailluminathi</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 0,
+            slidesPerView: 1,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            }
+        });
+    </script>
+</body>
+</html>
