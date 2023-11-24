@@ -1,8 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap');
-
 * {
     box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(fontes/Montserrat-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(fontes/Montserrat-Bold.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cinzel Decorative';
+    src: url(fontes/CinzelDecorative-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cinzel Decorative';
+    src: url(fontes/CinzelDecorative-Bold.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
 }
 
 :root {
