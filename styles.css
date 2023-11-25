@@ -130,6 +130,25 @@ header h1::first-letter {
     box-shadow: inset 0px 0px 20px 10px rgba(0, 0, 0, 0.336);
 }
 
+.part-0 {
+    display: flex;
+    width: 90vw;
+    justify-content: flex-end;
+
+    background-image: url("assets/nevoa.jpg");
+    background-size: contain;
+    background-attachment: fixed;
+
+    box-sizing: border-box;
+}
+
+.part-0 .container__paragrafo {
+    width: 60vw;
+    padding-left: 155px;
+    padding-right: 0;
+    background-image: linear-gradient(to left, #0B0A0A, #0B0A0A, #0B0A0A, #0b0a0af5, #0b0a0ab2, transparent);
+}
+
 .part-1 {
     display: flex;
     width: 90vw;
@@ -148,18 +167,21 @@ header h1::first-letter {
     font-size: 1em;
     line-height: 1.5;
     padding: 20px;
+    padding-top: 5px;
     padding-right: 50px;
 
     background-image: linear-gradient(to right, #0B0A0A, #0B0A0A, #0B0A0A, #0B0A0A, transparent);
 }
 
-.container__paragrafo p {
+.container__paragrafo__titulos {
     margin-bottom: 10px;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.363);
+    font-weight: 700;
+    font-size: 1.25em;
 }
 
-.container__paragrafo::first-letter {
-    font-size: 1.5em;
+.container__paragrafo p {
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.568);
 }
 
 .part-2 {
@@ -175,6 +197,7 @@ header h1::first-letter {
 }
 
 .part-2 .container__paragrafo {
+    padding-right: 0;
     background-image: linear-gradient(to left, #0B0A0A, #0B0A0A, #0B0A0A, #0B0A0A, #0B0A0A, transparent);
 }
 
@@ -394,6 +417,7 @@ h4 {
         line-height: 1.5;
         padding: 20px;
         padding-right: 50px;
+        box-shadow: none;
     
         background-image: linear-gradient(to right, #0B0A0A, #0B0A0A);
     }
@@ -401,6 +425,18 @@ h4 {
     .part-2 .container__paragrafo {
         background-image: linear-gradient(to left, #0B0A0A, #0B0A0A);
     }
+
+    .part-0 .container__paragrafo {
+        background-image: linear-gradient(to right, #0B0A0A, #0B0A0A);
+        width: 90vw;
+        height: 100%;
+        box-sizing: border-box;
+        font-size: 1em;
+        line-height: 1.5;
+        padding: 20px;
+        padding-right: 50px;
+    }
+
 
     /* carrossel */
 
