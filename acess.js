@@ -9,11 +9,11 @@
             if (senhaDigitada === senhaCorreta) {
                 document.body.classList.add("unblur"); // Adicionar a classe para remover o desfoque
             } else {
-                alert("Senha incorreta! Acesso negado.");
-                // Redirecionar ou tomar outra ação, se necessário
+                alert("Acesso negado.");
+                // Redirecionar
                 window.location.href = "index.html";
             }
         }
 
-        // Chamar a função ao carregar a página (opcional)
+        // Chamar a função ao carregar a página
         window.onload = verificarSenha;
