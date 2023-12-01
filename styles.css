@@ -412,6 +412,7 @@ h4 {
     display: flex;
     align-items: center;
     align-self: center;
+    text-shadow: 2px 2px 3px black;
 }
 
 .container__tradicoes__cerimonia__texto {
@@ -422,6 +423,105 @@ h4 {
 
 .frases {
     color: rgba(255, 255, 255, 0.459);
+}
+
+.body__area-membros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__area-membro {
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.021);
+    border-radius: 50px;
+    padding: 40px;
+    border: 1px solid var(--vermelho);
+}
+
+.container__area-membro__opcoes__titulo {
+    font-size: 2.5em;
+    color: var(--vermelho);
+    font-family: var(--fonte-secundaria);
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.container__area-membro__opcoes p {
+    color: var(--branco);
+}
+
+.container__area-membro__opcoes__lista {
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.container__area-membro__opcoes__lista__item a {
+    text-decoration: none;
+    border: 1px solid var(--vermelho);
+    border-radius: 20px;
+    padding: 10px;
+    color: var(--vermelho);
+    font-weight: 600;
+    transition: .5s ease;
+}
+
+.container__area-membro__opcoes__lista__item a:hover {
+    background-color: var(--vermelho);
+    color: var(--preto);
+    box-shadow: 0px 0px 15px var(--vermelho);
+}
+
+.footer__acesso-membros {
+    margin-top: 500px;
+}
+
+.container__login {
+    width: 40vw;
+    display: flex;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 20vw;
+}
+
+.login label {
+    color: var(--vermelho);
+    font-weight: 600;
+}
+
+#inome, #isenha {
+    margin-bottom: 20px;
+}
+
+.login button {
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100px;
+    font-weight: 700;
+    align-self: center;
+    background-color: var(--vermelho);
+    cursor: pointer;
+    outline: 1px solid var(--preto);
+    box-shadow: 2px 2px 3px var(--preto);
+    transition: .5s ease;
+    color: var(--preto);
+}
+
+.login button:hover {
+    transform: translateX(-1px);
+    transform: translateY(-1px);
+    box-shadow: 0px 0px 10px var(--vermelho);
 }
 
 @media (max-width:750px) {
