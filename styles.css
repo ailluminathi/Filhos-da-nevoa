@@ -503,6 +503,21 @@ h4 {
     margin-bottom: 20px;
 }
 
+input {
+    border-radius: 20px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid var(--vermelho);
+    margin-top: 5px;
+    color: #8f0404;
+    padding: 10px 0;
+    padding-left: 10px;
+}
+
+input:focus-within {
+    outline: none;
+}
+
 .login button {
     border: none;
     border-radius: 20px;
