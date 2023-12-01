@@ -219,6 +219,7 @@ footer {
     font-size: .90em;
     padding: 7px;
     background-color: rgba(255, 255, 255, 0.034);
+    width: 100vw;
 }
 footer a {
     text-decoration: none;
@@ -357,10 +358,71 @@ h4 {
 }
 
 .menu_tequilala {
-    width: 70vw;
+    height: 100vh;
     margin-top: 50px;
 }
 
+.body__tradicoes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__tradicoes {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container__tradicoes__titulo {
+    font-size: 1.75em;
+    font-weight: 700;
+    color: var(--vermelho);
+    margin-bottom: 50px;
+    font-family: var(--fonte-secundaria);
+    text-transform: uppercase;
+    align-self: center;
+}
+
+.container__tradicoes__cerimonia {
+    width: 50%;
+    align-self: center;
+    margin-bottom: 50px;
+    background-color: rgba(255, 255, 255, 0.068);
+    padding: 20px;
+    border: 1px solid var(--vermelho);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.cerimonia__icon {
+    width: 50px;
+    padding: 10px;
+}
+
+.container__tradicoes__cerimonia__titulo {
+    font-size: 1.15em;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: var(--vermelho);
+    display: flex;
+    align-items: center;
+    align-self: center;
+}
+
+.container__tradicoes__cerimonia__texto {
+    margin-bottom: 7px;
+    line-height: 1.25;
+    font-size: 1em;
+}
+
+.frases {
+    color: rgba(255, 255, 255, 0.459);
+}
 
 @media (max-width:750px) {
 
@@ -455,5 +517,13 @@ h4 {
     
     .menu_tequilala {
         width: 90vw;
+    }
+
+    .container__tradicoes {
+        width: 100vw;
+    }
+
+    .container__tradicoes__cerimonia {
+        width: 90%;
     }
 }
