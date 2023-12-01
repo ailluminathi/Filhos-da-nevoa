@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
             localStorage.setItem('nomeUsuario', nomeUsuario);
 
             // Redireciona para a página desejada
-            window.location.href = 'area-dos-membros666';
+            window.location.href = 'area-dos-membros666.html';
         } else {
             alert('Credenciais incorretas.');
         }
