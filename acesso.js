@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
         var senhaUsuario = document.getElementById('isenha').value;
 
         // Lista de nomes de usuário permitidos
-        var nomesPermitidos = ['Admin', 'Helora', 'Ronnie', 'Moana', 'Burlin', 'Gustavo']; // Adicione mais nomes conforme necessário
+        var nomesPermitidos = ['Admin', 'Helora', 'Ronnie', 'Moana', 'Burlin', 'Gustavo', 'Ethan']; // Adicione mais nomes conforme necessário
 
         // Verifica se o nome de usuário está na lista permitida e se a senha está correta
         if (nomesPermitidos.includes(nomeUsuario) && senhaUsuario === 'nevoa123') {
