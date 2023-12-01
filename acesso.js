@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
         var senhaUsuario = document.getElementById('isenha').value;
 
         // Lista de nomes de usuário permitidos
-        var nomesPermitidos = ['Admin', 'Helora', 'Ronnie']; // Adicione mais nomes conforme necessário
+        var nomesPermitidos = ['Admin', 'Helora', 'Ronnie', 'Moana', 'Burlin', 'Gustavo']; // Adicione mais nomes conforme necessário
 
         // Verifica se o nome de usuário está na lista permitida e se a senha está correta
         if (nomesPermitidos.includes(nomeUsuario) && senhaUsuario === 'nevoa123') {
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
             localStorage.setItem('nomeUsuario', nomeUsuario);
 
             // Redireciona para a página desejada
-            window.location.href = 'area-dos-membros666.html';
+            window.location.href = 'area-dos-membros666';
         } else {
             alert('Credenciais incorretas.');
         }
