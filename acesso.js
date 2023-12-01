@@ -30,5 +30,5 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Atualiza o conteúdo do h2 com o nome do usuário
     var mensagemBemVindo = document.querySelector('.membro-login-nome');
-    mensagemBemVindo.textContent = 'Bem-vindo, ' + nomeUsuario;
+    mensagemBemVindo.textContent = 'Bem-vindo(a), ' + nomeUsuario;
 });
