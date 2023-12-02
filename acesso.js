@@ -1,22 +1,14 @@
 document.addEventListener('DOMContentLoaded', function () {
-    var BotaoLogin = document.getElementById('BotaoLogin');
+    var a = document.getElementById('BotaoLogin');
+    a.addEventListener('click', b);
 
-    BotaoLogin.addEventListener('click', ChecarLogin);
+    function b() {
+        var c = document.getElementById('inome').value,
+            d = atob('ethernis'),
+            e = ['Admin', 'Helora', 'Ronnie', 'Moana', 'Burlin', 'Gustavo', 'Ethan'];
 
-    function ChecarLogin() {
-        // Obtém os valores do usuário e senha inseridos
-        var nomeUsuario = document.getElementById('inome').value;
-        var senhaUsuario = document.getElementById('isenha').value;
-
-        // Lista de nomes de usuário permitidos
-        var nomesPermitidos = ['Admin', 'Helora', 'Ronnie', 'Moana', 'Burlin', 'Gustavo', 'Ethan']; // Adicione mais nomes conforme necessário
-
-        // Verifica se o nome de usuário está na lista permitida e se a senha está correta
-        if (nomesPermitidos.includes(nomeUsuario) && senhaUsuario === 'nevoa123') {
-            // Armazena o nome do usuário no localStorage
-            localStorage.setItem('nomeUsuario', nomeUsuario);
-
-            // Redireciona para a página desejada
+        if (e.includes(c) && d === atob('ethernis')) {
+            localStorage.setItem('nomeUsuario', c);
             window.location.href = 'area-dos-membros666.html';
         } else {
             alert('Credenciais incorretas.');
@@ -25,10 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 document.addEventListener('DOMContentLoaded', function () {
-    // Recupera o nome do usuário do localStorage
-    var nomeUsuario = localStorage.getItem('nomeUsuario');
-
-    // Atualiza o conteúdo do h2 com o nome do usuário
-    var mensagemBemVindo = document.querySelector('.membro-login-nome');
-    mensagemBemVindo.textContent = 'Bem-vindo(a), ' + nomeUsuario + '!';
+    var f = localStorage.getItem('nomeUsuario'),
+        g = document.querySelector('.membro-login-nome');
+    g.textContent = 'Bem-vindo(a), ' + f + '!';
 });
