@@ -539,6 +539,11 @@ input:focus-within {
     box-shadow: 0px 0px 10px var(--vermelho);
 }
 
+strong {
+    font-weight: 700;
+    color: var(--vermelho);
+}
+
 @media (max-width:750px) {
 
     header img {
